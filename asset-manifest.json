@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Mod-Task-2/static/css/main.6e5a2eea.css",
-    "main.js": "/Mod-Task-2/static/js/main.97a5d5a4.js",
+    "main.js": "/Mod-Task-2/static/js/main.c231bfa2.js",
     "static/media/login.jpg": "/Mod-Task-2/static/media/login.f40109b675bff91ffac7.jpg",
     "static/media/home.png": "/Mod-Task-2/static/media/home.ca1b65dbf3029a48b377.png",
     "static/media/SignUp.jpg.jpg": "/Mod-Task-2/static/media/SignUp.jpg.ffdbfebb9af84a2a10af.jpg",
@@ -10,10 +10,10 @@
     "static/media/ArbFONTS-AGCBold.ttf": "/Mod-Task-2/static/media/ArbFONTS-AGCBold.95bd70d7e83928c82826.ttf",
     "index.html": "/Mod-Task-2/index.html",
     "main.6e5a2eea.css.map": "/Mod-Task-2/static/css/main.6e5a2eea.css.map",
-    "main.97a5d5a4.js.map": "/Mod-Task-2/static/js/main.97a5d5a4.js.map"
+    "main.c231bfa2.js.map": "/Mod-Task-2/static/js/main.c231bfa2.js.map"
   },
   "entrypoints": [
     "static/css/main.6e5a2eea.css",
-    "static/js/main.97a5d5a4.js"
+    "static/js/main.c231bfa2.js"
   ]
 }
