@@ -35,7 +35,7 @@ const removeNav = () => {
                 </div>
                 <div className={`left-btn button` }>
                     <Link className="start-btn" to="/">ابدا</Link>
-                    <Link className="sign-up-btn" type="submit" to={submitSource === 'FirstPage' ? "logout" : "login"} > {buttonText} </Link>
+                    <Link className="sign-up-btn" type="submit" to={submitSource === 'FirstPage' || submitSource === 'ThirdPage' ? "logout" : "login"} > {buttonText} </Link>
                 </div>
                 <div className="nav align-items-center">
                             <ul className={navbar}>
