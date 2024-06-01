@@ -1,0 +1,175 @@
+.verifty{
+    direction: rtl;
+    background-image: url('../../assests/images/login.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    box-shadow: 2px 2px 30px -8px #F2F4F6;
+    
+    }
+    
+    
+    .verifty .main-verifty{
+        position: relative;
+    }
+    .verifty .overlay {
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(45deg, rgba(10, 14, 63, 0.45), rgba(107, 72, 255, 0.45));
+        position: absolute;
+        z-index: -1;
+    }
+    
+    .verifty .content{
+        width: 65%;
+        background: #FFFFFF;
+        text-align: center;
+        padding: 25px 30px;
+        border-radius: 20px;
+    }
+    .verifty h2 {
+        display: inline-flex;
+        gap: 5px;
+        font-size: 34px;
+        font-weight: 700;
+        line-height: 40px;
+        margin-bottom: 25px;
+    }
+    .verifty h2 span {
+        color: #6B48FF;
+    }
+    .verifty p {
+        color: #000000;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 26px;
+        display: inline-flex;
+        gap: 5px;
+    }
+    .verifty .code {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .verifty .code-number{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+    
+        li {
+            border: 1px solid #ACACAC;
+            padding: 6px 12px;
+            background-color: #D9D9D9;
+            ;
+            font-size: 22px;
+            border-radius: 10px;
+            color: #1E1E1E;
+        }
+    }
+    .verifty .confirm {
+    width: 100%;
+    font-size: 22px;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    background: #1EE3CF;
+    box-shadow: 0px 38.49px 71.48px 0px #00000012;
+    margin-bottom: 25px;
+    color: #0A0E3F;
+    }
+    .verifty p span {
+            color: #1877F2;
+        }
+        .verifty .resent {
+        width: 100%;
+        font-size: 22px;
+        border: none;
+        border-radius: 20px;
+        padding: 10px;
+        background: #FFFFFF;
+        border: 1px solid #ACACAC;
+        box-shadow: 0px 38.49px 71.48px 0px #00000012;
+        margin-top: 25px;
+        margin-bottom: 20px;
+    }
+    
+    @media (max-width: 575px) {
+        .verifty {
+            width: 360px;
+        }
+        .verifty .content {
+            width: 100%;
+        }
+        .verifty h2 {
+            font-size: 28px;
+        }
+        .verifty p {
+            font-size: 16px;
+            display: block;
+        }
+        .verifty p span {
+            display: inline;
+        }
+        .verifty .code {
+            margin-bottom: 15px;
+            margin-top: 0;
+        }
+        .verifty .code-number {
+            gap: 2px;
+        }
+        .verifty .code-number li{
+            font-size: 18px;
+        }
+        .verifty .confirm{
+            font-size: 16px;
+            padding: 8px;
+        }
+        .verifty .resent {
+            margin-top: 10px;
+            font-size: 16px;
+            padding: 8px;
+        }
+    }
+    @media (min-width: 575px) and (max-width: 992px){
+        .verifty {
+            width: 500px;
+        }
+        .verifty h2 {
+            font-size: 28px;
+        }
+        .verifty p {
+            font-size: 16px;
+            display: block;
+        }
+        .verifty p span {
+            display: inline;
+        }
+        .verifty .code {
+            margin-bottom: 15px;
+            margin-top: 0;
+        }
+        .verifty .code-number {
+            gap: 2px;
+        }
+        .verifty .code-number li{
+            font-size: 18px;
+        }
+        .verifty .confirm{
+            font-size: 16px;
+            padding: 8px;
+        }
+        .verifty .resent {
+            margin-top: 10px;
+            font-size: 16px;
+            padding: 8px;
+        }
+    }
+    @media (min-width: 993px) and (max-width: 1279px){}
+    @media (min-width: 1280px){}

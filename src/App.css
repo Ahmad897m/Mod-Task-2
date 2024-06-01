@@ -1,0 +1,76 @@
+:root {
+--background-color: #F2F4F6;
+    --pargraph-color: #1EE3CF;
+    --ovarlay--color: #0A0E3F ;
+    --btn-background: #161D6F;
+    --link-color: #161D6F;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: 'noor';
+    src: url('./assests/noor/ArbFonts/ArbFONTS-AGCBold.ttf');
+    src: url('./assests/noor/ArbFonts/ArbFONTS-AGCLight.ttf');
+    src: url('./assests/noor/ArbFonts/ArbFONTS-AGCRegular.ttf');
+}
+body {
+    font-family: 'noor', sans-serif !important;  
+    padding: 0;
+    margin: 0;
+}
+.container {
+    max-width: 1520px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+section {
+    margin-top: 00px;
+    padding-top: 0;
+}
+img {
+    width: 100%;
+    overflow: hidden;
+}
+ul {
+    padding: 0 !important;
+    margin: 0 !important;
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+}
+
+span {
+    display: block;
+}
+
+p {
+    line-height: 28px;
+    color: #7a7a7a;
+    font-size: 16px;
+    margin: 0;
+}
+fieldset {
+    min-width: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+
+a{
+    text-decoration: none !important;
+    cursor: pointer;
+
+    /* &:hover {
+    color: #6B48FF;
+    transition: .5s ease;
+    } */
+}

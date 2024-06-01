@@ -1,0 +1,271 @@
+.signup {
+    direction: rtl;
+    background-image: url('../../assests/images/SignUp.jpg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+    position: relative;
+    }
+    
+    .signup .main-sign {
+    width: 80%;
+    text-align: center;
+    background: #ffffff;
+    height: 100%;
+    padding: 30px;
+    border-radius: 20px 0 0 20px;
+    }
+    
+    .signup .main-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 40px;
+    }
+    
+    .signup .form {
+    width: 48%;
+    }
+    
+    
+    .signup .info-box {
+    width: 48%;
+    display: grid;
+    gap: 25px;
+    }
+    .signup .form form {
+    display: grid;
+    gap: 40px;
+    }
+    .input {
+        position: relative;
+    }
+    
+    .signup .input label {
+    position: absolute;
+    border-radius: 25px;
+    position: absolute;
+    background: #FFFFFF;
+    padding: 10px;
+    top: -23px;
+    right: 30px;
+    font-size: 16px;
+    }
+    
+    .signup .input input {
+    padding: 10px;
+    width: 100%;
+    border-radius: 20px;
+    border: 1px solid #000000;
+    }
+    
+    .signup .image-upload {
+    background: #6B48FF33;
+    padding: 20px;
+    border: 1px dashed #161D6F;
+    border-radius: 10px;
+    position: relative;
+    display: grid;
+    gap: 30px;
+    }
+    
+    .signup .image-upload label {
+    position: absolute;
+    top: -24px;
+    font-size: 16px;
+    right: 34px;
+    }
+    .signup .image-upload p {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    justify-content: space-between;
+    margin-top: 12px;
+    }
+    
+    .signup .image-upload .icon {
+    font-size: 34px;
+    color: #000000;
+    }
+    .signup .image-upload span {
+    text-align: right;
+    color: #5F5F5F;
+    font-size: 14px;
+    }
+    .signup .create-btn {
+    position: relative;
+    }
+    .signup .create-btn .button {
+    width: 100%;
+    font-size: 22px;
+    display: block;
+    color: #000000;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    background: #1EE3CF;
+    box-shadow: 0px 38.49px 71.48px 0px #00000012;
+    margin-bottom: 25px;
+    }
+    
+    .signup .main .line{
+    width: 400px;
+    margin:40px auto 20px auto ;
+    }
+    
+    .signup .text-line{
+    margin: 0;
+    position: relative;
+    font-size: 18px;
+    }
+    .signup .text-line::before{
+        content: '';
+        position: absolute;
+        width: 45%;
+        height: 1px;
+        background: #D9D9D9;
+        right: 0;
+        bottom: 26%;
+    }
+    
+    .signup .text-line::after {
+        content: '';
+        position: absolute;
+        width: 45%;
+        height: 1px;
+        background: #D9D9D9;
+        left: 0;
+        bottom: 26%;
+    }
+    
+    .signup .create-btn p {
+        margin: 0;
+        position: absolute;
+        bottom: -10px;
+        font-size: 14px;
+    }
+    .signup .create-btn p a
+    {
+        color: #6B48FF;
+        text-decoration: underline !important;
+    }
+    
+    .signup .icons {
+        width: 400px;
+        margin: 30px auto 0 auto;
+    }
+    
+    .signup .icons ul {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .signup .icons ul li {
+        box-shadow: 0px 38.49px 71.48px 0px #00000012;
+    }
+    .signup .icons .icon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #1877F2;
+        padding: 10px;
+        border-radius: 25px;
+        gap: 10px;
+        box-shadow: 0px 38.49px 71.48px 0px #00000012;
+    }
+    .signup .icons .icon span {
+        color: #ffffff;
+    }
+    .signup .icons .icon img {
+        width: 24px;
+    }
+    .signup .icons ul li .apple {
+        background: #000000 !important;
+    }
+    .signup .icons ul li .google {
+        background: #FFFFFF;
+    }
+    
+    
+    @media (max-width: 575px) {
+        .signup .main-sign {
+            width: 100%;
+            border-radius: 0;
+        }
+        .signup h2 {
+                font-size: 24px !important;
+            }
+            .signup .main-form {
+                flex-direction: column;
+                align-items: center;
+                gap: 30px;
+            }
+            .signup .form {
+                width: 100%;
+            }
+            .signup .info-box {
+                width: 100%;
+            }
+            .signup .line {
+                width: 200px;
+                margin: auto;
+                margin-top: 25px;
+            }
+            .signup .create-btn p {
+            right: 30%;
+            }
+            .signup .text-line::before,
+            .signup .text-line::after{
+                width: 40%;
+            }
+            .signup .icons {
+                width: auto;
+            }
+            .signup .icons ul {
+                gap: 15px;
+                flex-direction: column;
+            }
+            .signup .image-upload p {
+                gap: 20px;
+                text-align: right;
+            }
+            .signup .icons ul li {
+                width: 100%;
+            }
+        }
+    
+    @media (min-width: 577px) and (max-width: 992px){
+        .signup .main-sign {
+        width: 100%;
+        position: absolute;
+        top: 0;
+        border-radius: 0;
+        }
+        .signup .image-upload {
+            gap: 15px;
+        }
+        .signup .input label  {
+            font-size: 12px;
+            top: -20px;
+        }
+        .signup .image-upload p {
+            font-size: 12px;
+            margin-top: 0;
+            gap: 20px;
+            text-align: right;
+        }
+        .signup .image-upload .icon {
+            font-size: 20px;
+        }
+        .signup .image-upload span {
+            font-size: 12px;
+        }
+        .signup .create-btn button {
+            font-size: 16px;
+        }
+        .signup .input input  {
+            padding: 5px;
+        }
+    }

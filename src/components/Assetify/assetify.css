@@ -1,0 +1,38 @@
+.assetify {
+    background: #0A0E3F;
+
+}
+
+
+.assetify .content {
+        padding-top: 60px;
+        padding-bottom: 20px;
+        direction: rtl;
+        text-align: center;
+    }
+    .assetify  h1 {
+        font-size: 50px;
+        color: #FFFFFF;
+    }
+    
+
+@media (max-width: 575px) {
+    .assetify .content h1 {
+        font-size: 24px; 
+}
+}
+@media (min-width: 576px) and (max-width: 992px){
+    .assetify .content h1 {
+        font-size: 32px; 
+    }
+}
+@media (min-width: 993px) and (max-width: 1279px){
+    .assetify .content h1 {
+        font-size: 50px; 
+    }
+}
+
+
+
+
+

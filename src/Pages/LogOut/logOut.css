@@ -1,0 +1,103 @@
+.logout {
+    direction: rtl;
+    background-image: url('../../assests/images/login.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 700px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 2px 2px 30px -8px #F2F4F6;
+}
+
+.logout .main-out{
+        position: relative;
+    }
+    .logout .overlay {
+        border-radius: 20px;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(45deg, rgba(10, 14, 63, 0.45), rgba(107, 72, 255, 0.45));
+        position: absolute;
+        z-index: -1;
+    }
+    .logout .content{
+        width: 65%;
+        background: #FFFFFF;
+        text-align: center;
+        padding: 60px 35px;
+        border-radius: 20px;
+        
+        h2{
+            font-size: 24px;
+            font-weight: 700;
+            line-height: 40px;
+            margin-bottom: 40px;
+        }
+
+        .buttons{
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+            align-items: center;
+            justify-content: center;
+        }
+        .confirm{
+                width: 100%;
+                font-size: 22px;
+                border: none;
+                border-radius: 20px;
+                padding: 10px;
+                background: #1EE3CF;
+                box-shadow: 0px 38.49px 71.48px 0px #00000012;
+            }
+            .back {
+                width: 100%;
+                font-size: 22px;
+                border: none;
+                border-radius: 20px;
+                padding: 10px;
+                background: #FFFFFF;
+                border: 1px solid #ACACAC;
+                box-shadow: 0px 38.49px 71.48px 0px #00000012;
+            }
+        }
+
+@media (max-width: 575px) {
+    .logout {
+        width: 360px !important;
+    }
+    .logout .content {
+        padding: 15px 10px !important;
+        width: 100%;
+        }
+        .logout h2 {
+        font-size: 14px !important;
+        margin-bottom: 20px !important;
+    }
+    .logout .confirm,
+    .back {
+        font-size: 14px !important;
+    }
+}
+@media (min-width: 577px) and (max-width: 992px){
+    .logout {
+        width: 500px !important;
+    }
+    .logout .content {
+        padding: 30px 20px !important;
+    }
+    .logout h2 {
+        font-size: 20px !important;
+    }
+    .logout .buttons {
+        gap: 20px !important;
+    }
+    .logout .confirm,
+    .back {
+        font-size: 18px !important;
+    }
+}

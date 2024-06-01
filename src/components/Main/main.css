@@ -1,0 +1,74 @@
+.main {
+    background-image: url('../../assests/images/home.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    position: relative;
+    z-index: -2;
+
+}
+
+.main .content {
+        max-width: 930px;
+        margin: auto;
+        text-align: center;
+        padding-top: 86px;
+        z-index: 200;
+        direction: rtl;
+    }
+    
+    .main .content p {
+        font-size: 22px;
+        margin-bottom: 42px;
+        color: #1EE3CF;
+        font-weight: 400;
+    }
+    
+    .main .content h1 {
+        font-size: 50px;
+        margin-bottom: 42px;
+        color: #FFFFFF;
+        font-weight: 700;
+        line-height: 1.5;
+    }
+    
+    .overlay {
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(45deg, rgba(10, 14, 63, 0.45), rgba(107, 72, 255, 0.45));
+        z-index: -1;
+    }
+    
+@media (max-width: 575px) {
+    .main .content {
+        max-width: 400px;
+        padding-top: 86px;
+        
+                p {
+                font-size: 16px;   
+                }
+                h1 {
+                    font-size: 26px;
+                }
+    }
+}
+@media (min-width: 577px) and (max-width: 992px){
+    .main .content {
+        max-width: 650px;
+        padding-top: 86px;
+
+        p {
+        font-size: 16px;   
+        }
+        h1 {
+            font-size: 40px;
+        }
+    }
+}
+
+
+
+
+
