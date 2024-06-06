@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Mod-Task-2/static/css/main.0c08f7db.css",
-    "main.js": "/Mod-Task-2/static/js/main.588155e5.js",
+    "main.css": "/Mod-Task-2/static/css/main.446c65c1.css",
+    "main.js": "/Mod-Task-2/static/js/main.85749078.js",
     "static/media/login.jpg": "/Mod-Task-2/static/media/login.f40109b675bff91ffac7.jpg",
     "static/media/home.png": "/Mod-Task-2/static/media/home.ca1b65dbf3029a48b377.png",
     "static/media/SignUp.jpg.jpg": "/Mod-Task-2/static/media/SignUp.jpg.ffdbfebb9af84a2a10af.jpg",
@@ -9,11 +9,11 @@
     "static/media/ArbFONTS-AGCRegular.ttf": "/Mod-Task-2/static/media/ArbFONTS-AGCRegular.418d194ef3567bddb1f9.ttf",
     "static/media/ArbFONTS-AGCBold.ttf": "/Mod-Task-2/static/media/ArbFONTS-AGCBold.95bd70d7e83928c82826.ttf",
     "index.html": "/Mod-Task-2/index.html",
-    "main.0c08f7db.css.map": "/Mod-Task-2/static/css/main.0c08f7db.css.map",
-    "main.588155e5.js.map": "/Mod-Task-2/static/js/main.588155e5.js.map"
+    "main.446c65c1.css.map": "/Mod-Task-2/static/css/main.446c65c1.css.map",
+    "main.85749078.js.map": "/Mod-Task-2/static/js/main.85749078.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c08f7db.css",
-    "static/js/main.588155e5.js"
+    "static/css/main.446c65c1.css",
+    "static/js/main.85749078.js"
   ]
 }
