@@ -12,21 +12,6 @@
     transform: translate(-50%, -50%) scale(0);
     animation-fill-mode: forwards;
     z-index: 10000;
-<<<<<<< HEAD
-}
-
-@keyframes logoutAnimi {
-    0% {
-        opacity: 0;
-        transform: translate(-50%, -50%) scale(0);
-    }
-    100% {
-        opacity: 1;
-        transform: translate(-50%, -50%) scale(1);
-
-}
-=======
->>>>>>> 08b10f20a879e4aa02bac71b19883f8caa739f17
 }
 @keyframes logoutAnimi {
     0% {
