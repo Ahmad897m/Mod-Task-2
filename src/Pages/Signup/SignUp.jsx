@@ -1,15 +1,35 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import './signUp.css';
 import { BsUpload } from "react-icons/bs";
 import googleImg from '../../assests/images/Google Logo.png'
 import appleImg from '../../assests/images/Apple Logo.png'
 import facebookImg from '../../assests/images/Facebook Logo.png'
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const SignUp = () => {
+
+    const [startAnimating, setstartAnimating] = useState(false);
+
+    const navigate = useNavigate();
+
+
+    const handleClick = (e) =>{
+        e.preventDefault();
+        setstartAnimating(true)
+    }
+
+    useEffect(() => {
+        if(startAnimating) {
+            const timer = setTimeout(() =>{
+                navigate('verifyEmmail');
+            }, 1500);
+            return () => clearTimeout(timer)
+        }
+    }, [startAnimating, navigate
+    ])
     return(
         <>
-            <section className="signup">
+            <section className={`signup ${startAnimating ? "hidepage" : ''}`}>
             <div className="main-sign">
                 <h2>إنشاء حساب</h2>
                     <div className="main-form">
@@ -48,7 +68,8 @@ const SignUp = () => {
                         <span>الحجم الاقصى: 1MB</span>
                     </div>
                     <div className="create-btn">
-                        <Link to="verifyEmmail" className="button">إنشاء حساب</Link>
+                        <Link to="verifyEmmail" className="button"
+                        onClick={handleClick}  >إنشاء حساب</Link>
                         <p> لديك حساب؟ <Link to='/login'>تسجيل الدخول</Link></p>
                     </div>
                 </div>   

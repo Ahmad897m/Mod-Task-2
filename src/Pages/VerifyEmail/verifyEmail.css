@@ -9,9 +9,23 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -40%);
     box-shadow: 2px 2px 30px -8px #F2F4F6;
+    animation: veriftyAnimi 1s ease;
+    transform: translate(-50%, -40%) scale(0);
+    animation-fill-mode: forwards;
+    z-index: 100;
     
+    }
+    @keyframes veriftyAnimi {
+        0% {
+            opacity: 0;
+            transform: translate(-50%, -40%) scale(0);
+        }
+        100% {
+            opacity: 1;
+            transform: translate(-50%, -40%) scale(1);
+    
+    }
     }
     
     
