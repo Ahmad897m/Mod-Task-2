@@ -1,6 +1,4 @@
 .logout {
-    direction: rtl;
-    background-image: url('../../assests/images/login.jpg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -9,10 +7,23 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
     box-shadow: 2px 2px 30px -8px #F2F4F6;
+    animation: logoutAnimi 1s ease;
+    transform: translate(-50%, -50%) scale(0);
+    animation-fill-mode: forwards;
+    z-index: 10000;
 }
+@keyframes logoutAnimi {
+    0% {
+        opacity: 0;
+        transform: translate(-50%, -50%) scale(0);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(-50%, -50%) scale(1);
 
+}
+}
 .logout .main-out{
         position: relative;
     }
