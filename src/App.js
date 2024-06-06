@@ -13,7 +13,6 @@ function App() {
   const [submitSource, setSubmitSource] = useState('');
   return (
     <>
-    <HashRouter> 
         <Router>
         <Header  submitSource={submitSource} setSubmitSource={setSubmitSource} />
         <Routes>
@@ -26,7 +25,6 @@ function App() {
           </Routes>
 
         </Router>
-  </HashRouter>
     </>
   );
 }
