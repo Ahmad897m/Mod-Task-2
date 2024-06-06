@@ -1,6 +1,5 @@
 
 import React, { useEffect, useState } from "react";
-import React, {useEffect, useState} from "react";
 import './signUp.css';
 import { BsUpload } from "react-icons/bs";
 import googleImg from '../../assests/images/Google Logo.png'
@@ -71,9 +70,6 @@ const SignUp = () => {
                         <span>الحجم الاقصى: 1MB</span>
                     </div>
                     <div className="create-btn">
-
-                        <Link to="verifyEmmail" className="button"
-                        onClick={handleClick}  >إنشاء حساب</Link>
 
                         <Link to="verifyEmmail" onClick={handleClick}  className="button">إنشاء حساب</Link>
                         <p> لديك حساب؟ <Link to='/login'>تسجيل الدخول</Link></p>
