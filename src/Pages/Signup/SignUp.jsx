@@ -1,24 +1,16 @@
-<<<<<<< HEAD
+
 import React, { useEffect, useState } from "react";
-=======
 import React, {useEffect, useState} from "react";
->>>>>>> 08b10f20a879e4aa02bac71b19883f8caa739f17
 import './signUp.css';
 import { BsUpload } from "react-icons/bs";
 import googleImg from '../../assests/images/Google Logo.png'
 import appleImg from '../../assests/images/Apple Logo.png'
 import facebookImg from '../../assests/images/Facebook Logo.png'
-<<<<<<< HEAD
+
 import { Link, useNavigate } from "react-router-dom";
 
 const SignUp = () => {
-
-=======
-import { Link , useNavigate } from "react-router-dom";
-
-const SignUp = () => {
     
->>>>>>> 08b10f20a879e4aa02bac71b19883f8caa739f17
     const [startAnimating, setstartAnimating] = useState(false);
 
     const navigate = useNavigate();
@@ -79,12 +71,11 @@ const SignUp = () => {
                         <span>الحجم الاقصى: 1MB</span>
                     </div>
                     <div className="create-btn">
-<<<<<<< HEAD
+
                         <Link to="verifyEmmail" className="button"
                         onClick={handleClick}  >إنشاء حساب</Link>
-=======
+
                         <Link to="verifyEmmail" onClick={handleClick}  className="button">إنشاء حساب</Link>
->>>>>>> 08b10f20a879e4aa02bac71b19883f8caa739f17
                         <p> لديك حساب؟ <Link to='/login'>تسجيل الدخول</Link></p>
                     </div>
                 </div>   
