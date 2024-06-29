@@ -62,14 +62,12 @@
     grid-template-columns: 1fr;
     position: relative;
 }
-.login .email-label{
+.login .email-label, .phone-label, .password-label{
     border-radius: 25px;
     position: absolute;
-    background: #FFFFFF;
-    padding: 9px;
-    top: -20px;
+    top: -17px;
     right: 30px;
-    font-size: 14px;
+    font-size: 16px;
 }
 .login .email-input,
 .password-input{
@@ -78,16 +76,9 @@
     width: 100%;
     border-radius: 20px;
     font-size: 14px;
+    outline: none;
 }
-.login .password-label{
-    border-radius: 25px;
-    position: absolute;
-    background: #FFFFFF;
-    padding: 9px;
-    top: -20px;
-    right: 30px;
-    font-size: 14px;
-}
+
 
 .login .login-btn{
     width: 100%;

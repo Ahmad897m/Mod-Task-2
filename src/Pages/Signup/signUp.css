@@ -54,7 +54,7 @@
     .signup .info-box {
     width: 48%;
     display: grid;
-    gap: 25px;
+    gap: 50px;
     }
     .signup .form form {
     display: grid;
@@ -65,12 +65,10 @@
     }
     
     .signup .input label {
-    position: absolute;
     border-radius: 25px;
     position: absolute;
     background: #FFFFFF;
-    padding: 10px;
-    top: -23px;
+    top: -17px;
     right: 30px;
     font-size: 16px;
     }
